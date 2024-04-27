@@ -1,3 +1,3 @@
 # wireshark
-This repository is for wireshark display filters
+This repository is for wireshark SIP profile
 ## SIP display filters
