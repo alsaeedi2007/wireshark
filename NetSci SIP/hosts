@@ -1,0 +1,16 @@
+# This is a sample hosts resolution file for Network X
+# Lines that start with # are comment lines
+#
+# Created 1/2016, updated 2/2016
+# Author: Andy Walding  www.netscionline.com
+#
+# Format is IP Address[space]Name you want displayed
+#
+#
+#192.168.1.74 Dave's-Apple-Macbook
+#192.168.1.1 The-AT&T-Uverse-Router
+#192.168.1.1 Customer-Router
+#192.168.1.214 Customer-PC	
+#192.168.1.220 Customer-Printer
+#192.168.1.223 Customer-NASp1	
+#192.168.1.252 Customer-NASp2	
