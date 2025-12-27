@@ -1,6 +1,5 @@
-"private_ethernet" $1[0] & 0x0F == 2
-"private_ipv6" ipv6 and $1 == fc00::/7
 "ipv4_conv" (ip.src==$1 && ip.dst==$2) || (ip.dst==$1 && ip.src==$2)
 "private_ipv4" ip.addr in {192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8}
 "public_ipv4" !(ip.addr in {192.168.0.0/16, 172.16.0.0/12, 10.0.0.0/8})
 "is_ipv4_subnets" (ip.addr in {10.10.30.0/24, 10.10.10.0/24, 10.10.100.0/24})
+
